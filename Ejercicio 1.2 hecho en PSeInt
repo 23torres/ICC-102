@@ -1,0 +1,14 @@
+Algoritmo TablaUsuario
+	Escribir "Digite la tabla que desea: "
+	Leer tabla
+	multiplicando = 1
+	suma = 0
+	Mientras multiplicando<=12 Hacer
+		NuevoValor = tabla*multiplicando
+		Escribir tabla, "*", multiplicando, "=", NuevoValor
+		multiplicando = multiplicando + 1
+		suma = suma+NuevoValor
+	FinMientras
+	Escribir suma
+FinAlgoritmo
+
